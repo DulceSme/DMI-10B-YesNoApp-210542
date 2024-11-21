@@ -10,9 +10,10 @@ Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unid
 
 ## Documentación del proyecto  
 
-### Estructura de las carpetas  
-![alt text](imagenes_readme/image.png)
-
+### <h3 align="center">Estructura de las carpetas</h3>  
+<p align="center">  
+  <img src="imagenes_readme/image.png" alt="Estructura de las carpetas">  
+</p>  
 ### Práctica 21  
 
 | Captura | Descripción |  
@@ -40,8 +41,8 @@ Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unid
 | <img src="https://github.com/user-attachments/assets/f28107b7-4157-4a42-abe2-20556e076222" width="300" height="100"> | La clase `GetYesNoAnswer` actúa como un puente entre la API de yesno.wtf y la lógica de la aplicación. Realiza solicitudes HTTP, transforma las respuestas en objetos internos, y permite integrar respuestas automáticas en el flujo del chat, completando la experiencia interactiva de la aplicación. |  
 | <img src="https://github.com/user-attachments/assets/226e7ef8-7894-4dc0-88bc-f10f6539490c" width="300" height="100"> | El método `moveScrollToBottom` mejora la experiencia de usuario al garantizar que los mensajes más recientes sean visibles sin requerir interacción manual, proporcionando un desplazamiento suave hacia la parte inferior de la lista. |  
 
-## Resultados  
+## <h3 align="center">Resultados</h3>  
 
 <p align="center">  
   <img src="imagenes_readme/image-4.png" alt="Resultados">  
-</p>  
+</p>   
