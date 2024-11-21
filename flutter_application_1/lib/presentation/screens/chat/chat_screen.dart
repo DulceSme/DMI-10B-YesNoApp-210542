@@ -18,10 +18,10 @@ class ChatScreen extends StatelessWidget {
           padding: EdgeInsets.all(4.0),
           child: CircleAvatar(
             backgroundImage: NetworkImage(
-                'https://play-lh.googleusercontent.com/sKagMyM8j71MQyDVRcRMcGf7yEWePT6PdmAo_S5rWIfJwzPLANPVYnu5mTFeA_0OpA'),
+                'https://images.vexels.com/content/129732/preview/casual-female-avatar-silhouette-00f98b.png'),
           ),
         ),
-        title: const Text('Caracola mágica'),
+        title: const Text('Esmeralda'),
         centerTitle: false,
       ),
       body: _ChatView(),
