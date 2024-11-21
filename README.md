@@ -14,6 +14,7 @@ Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unid
 <p align="center">  
   <img src="imagenes_readme/image.png" alt="Estructura de las carpetas">  
 </p>  
+
 ### Práctica 21  
 
 | Captura | Descripción |  
