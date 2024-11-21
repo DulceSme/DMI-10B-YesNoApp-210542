@@ -11,14 +11,14 @@ Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unid
 ## Documentación del proyecto  
 
 ### Estructura de las carpetas  
-![Estructura de carpetas](DMI-10B-YesNoApp-210542/imagenes_readme/image.png)
+![alt text](imagenes_readme/image.png)
 
 ### Práctica 21  
 
 | Captura | Descripción |  
 |:-------:|:------------|  
-| ![Archivo main.dart](DMI-10B-YesNoApp-210542/imagenes_readme/image-1.png) | El archivo `main.dart` es el punto de entrada de una aplicación. <br> En este archivo, se inicializa la aplicación utilizando el widget `MyApp`, el cual configura la gestión del estado mediante `Provider`, aplica un tema personalizado definido en `AppTheme` y establece la pantalla principal (`ChatScreen`). Esta estructura permite gestionar el estado de manera centralizada y asegura que la interfaz de usuario esté basada en el diseño de Material Design, proporcionando una experiencia consistente y eficiente para el usuario. |  
-| ![AppTheme](DMI-10B-YesNoApp-210542/imagenes_readme/image-2.png) | Define una clase `AppTheme` que permite crear un tema personalizado para una aplicación Flutter. Lo que permite crear un tema dinámico para la aplicación basado en un conjunto de colores predefinidos, donde el color seleccionado se ajusta mediante el índice proporcionado. La aplicación utilizará Material Design 3 con un esquema de colores determinado por el color seleccionado. |  
+|![alt text](imagenes_readme/image-1.png)| El archivo `main.dart` es el punto de entrada de una aplicación. <br> En este archivo, se inicializa la aplicación utilizando el widget `MyApp`, el cual configura la gestión del estado mediante `Provider`, aplica un tema personalizado definido en `AppTheme` y establece la pantalla principal (`ChatScreen`). Esta estructura permite gestionar el estado de manera centralizada y asegura que la interfaz de usuario esté basada en el diseño de Material Design, proporcionando una experiencia consistente y eficiente para el usuario. |  
+|![alt text](imagenes_readme/image-2.png)| Define una clase `AppTheme` que permite crear un tema personalizado para una aplicación Flutter. Lo que permite crear un tema dinámico para la aplicación basado en un conjunto de colores predefinidos, donde el color seleccionado se ajusta mediante el índice proporcionado. La aplicación utilizará Material Design 3 con un esquema de colores determinado por el color seleccionado. |  
 | <img src="https://github.com/user-attachments/assets/492473ea-96c0-416a-99ee-78a393aadd1e" width="300" height="100"> | El widget `ChatScreen` es la pantalla donde se muestra un chat. Tiene una barra de aplicaciones (AppBar) con un avatar de usuario y un título, y el cuerpo de la pantalla está destinado a mostrar la vista del chat (con `_ChatView` como widget encargado de ello). Esta estructura proporciona una interfaz básica para la pantalla de chat. |  
 
 ### Práctica 22  
@@ -36,12 +36,12 @@ Realizar una aplicación en Flutter para Dispositivos Móviles, parte de la Unid
 | Captura | Descripción |  
 |:-------:|:------------|  
 | <img src="https://github.com/user-attachments/assets/28580c72-ab84-4751-b099-ca3869a0af44" width="300" height="100"> | El código define la clase `YesNoModel`, que se utiliza como modelo de datos para manejar respuestas del tipo "sí o no" provenientes de una fuente externa . Incluye métodos para convertir instancias desde y hacia formatos JSON, y para transformarlas en una entidad del dominio llamada `Message`. |  
-| ![ChatProvider](DMI-10B-YesNoApp-210542/imagenes_readme/image-3.png) | La clase `ChatProvider` es el núcleo del manejo del estado del chat. Coordina las acciones entre el envío de mensajes, la recepción de respuestas automáticas, y la actualización visual de la interfaz. |  
+| ![alt text](imagenes_readme/image-3.png) | La clase `ChatProvider` es el núcleo del manejo del estado del chat. Coordina las acciones entre el envío de mensajes, la recepción de respuestas automáticas, y la actualización visual de la interfaz. |  
 | <img src="https://github.com/user-attachments/assets/f28107b7-4157-4a42-abe2-20556e076222" width="300" height="100"> | La clase `GetYesNoAnswer` actúa como un puente entre la API de yesno.wtf y la lógica de la aplicación. Realiza solicitudes HTTP, transforma las respuestas en objetos internos, y permite integrar respuestas automáticas en el flujo del chat, completando la experiencia interactiva de la aplicación. |  
 | <img src="https://github.com/user-attachments/assets/226e7ef8-7894-4dc0-88bc-f10f6539490c" width="300" height="100"> | El método `moveScrollToBottom` mejora la experiencia de usuario al garantizar que los mensajes más recientes sean visibles sin requerir interacción manual, proporcionando un desplazamiento suave hacia la parte inferior de la lista. |  
 
 ## Resultados  
 
 <p align="center">  
-  <img src="DMI-10B-YesNoApp-210542/imagenes_readme/image-4.png" alt="Resultados">  
+  <img src="imagenes_readme/image-4.png" alt="Resultados">  
 </p>  
