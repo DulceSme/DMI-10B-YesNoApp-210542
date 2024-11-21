@@ -5,12 +5,12 @@ const Color _customColor = Color.fromARGB(255, 232, 113, 236);
 const List<Color> _colorThemes = [
   _customColor,
   Colors.blue,
+  Colors.red
   Colors.teal,
   Colors.green,
   Colors.yellow,
-  Colors.orange,
   Colors.pink,
-  Colors.red,
+  Colors.orange,
 ];
 
 class AppTheme {
